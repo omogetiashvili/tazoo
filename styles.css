@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald";
+}
+
+.container {
+
+  width: 430px;
+  
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+
+}
+
+.box {
+  width: 430px;
+  
+}
+
+.top {
+  width: 100%;
+  height: 105px;
+  background-color: black;
+
+
+}
+
+.logo {
+  color: rgb(163, 25, 25);
+  font-size: 27px;
+  width: 233px;
+  margin: auto;
+  position: relative;
+  top: 15px;
+  background-color: bisque;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  
+}
+
+.aboutblog {
+  color: white;
+  display: flex;
+  gap: 25px;
+  position: relative;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-12%);
+  font-style: italic;
+  font-size: 16px;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 12px;
+}
+
+.dates {
+
+  display: flex;
+  gap: 40px;
+  width: 260px;
+  margin: auto;
+  margin-top: 40px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.comment {
+  color: red;
+
+}
+
+h2 {
+
+  
+  opacity: 0.8;
+  font-size: 23px;
+  margin-top: 35px;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+  
+  
+}
+
+.foto {
+  width: 430px;
+  height: 540px;
+  margin-left: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  
+}
+
+.bio {
+  margin-top: 40px;
+  margin-left: 12px;
+}
+
+h4 {
+  opacity: 0.6;
+}
+
+.fb {
+  width: 200px;
+}
+
+h5 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.lk {
+  width: 200px;
+  margin-top: 80px;
+  margin-left: 31px;
+}
+
+.fotoebi {
+  display: flex;
+}
